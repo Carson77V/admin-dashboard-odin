@@ -77,10 +77,12 @@ body {
 .dashboard-title {
     display: flex;
     font-size: 2rem;
+    align-items: center;
 }
 
 .dashboard-title > img {
-    height: 1rem;
+    height: 3rem;
+    margin-right: 1rem;
 }
 
 .sidebar h2 {
