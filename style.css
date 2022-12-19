@@ -55,6 +55,11 @@ table {
     --main-gold: #e349d1;
 }
 
+h2 {
+    font-size: 1.5rem;
+    font-family: roboto;
+}
+
 body {
     margin: 0;
     display: grid;
@@ -69,6 +74,7 @@ body {
     grid-column: 1 / 2;
     grid-row: 1 / 3;
     height: 100%;
+    width: auto;
     display: flex;
     flex-direction: column;
     color: #ffffff;
@@ -84,10 +90,6 @@ body {
 .dashboard-title > img {
     height: 3rem;
     margin-right: 1rem;
-}
-
-.sidebar h2 {
-    font-size: 1.5rem;
 }
 
 .sidebar > div {
@@ -115,7 +117,7 @@ body {
 
 .header > div {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
 }
 
 /* all styles that affect the main content*/
