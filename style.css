@@ -51,8 +51,12 @@ table {
 
 :root {
     --main-blue: #3CA4EA;
-    --main-grey: #dfeadf;
+    --main-grey: #E1ECF4;
     --main-gold: #e349d1;
+}
+
+h1 {
+    font-size: 2rem;
 }
 
 h2 {
@@ -106,6 +110,7 @@ body {
     height: 2rem;
     margin: 1rem;
 }
+
 
 /* All styles that affect the header*/
 .header {
@@ -168,10 +173,22 @@ input {
 
 }
 
+.header-bottom > .circular {
+    width: 65px;
+    height: 65px;
+    margin-right: 1rem;
+}
+
 button {
     background-color: var(--main-blue);
     border: none;
+    color: white;
+    margin: 0 1rem;
+    border-radius: 50px;
+    font-size: 1rem;
+    padding: 0.7rem 2rem;
 }
+
 
 /* all styles that affect the main content*/
 .content {
