@@ -118,6 +118,42 @@ body {
 .header > div {
     display: flex;
     align-items: center;
+    margin: 0 3rem;
+}
+
+input {
+    background-color: var(--main-grey);
+    border-radius: 50px;
+    border: none;
+    width: 35vw;
+    margin: 0 1rem;
+}
+
+.header img[src^="./icons"] {
+    height: 2rem;
+}
+
+.circular {
+    overflow: hidden;
+    border-radius: 50%;
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.header img[src^="dog"] {
+    height: 2.5rem;
+    margin-left: -6px;
+    width: auto;
+    height: 100%;
+}
+
+.header-top > form {
+    display: flex;
+}
+
+.gap {
+    flex-grow: 1;
 }
 
 /* all styles that affect the main content*/
