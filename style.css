@@ -195,4 +195,15 @@ button {
     background-color: var(--main-grey);
     grid-column: 2 / 3;
     grid-row: 2 / 3;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.content-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-right > div {
+    background-color: white;
 }
