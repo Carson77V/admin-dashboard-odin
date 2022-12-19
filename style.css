@@ -61,7 +61,21 @@ h1 {
 
 h2 {
     font-size: 1.5rem;
-    font-family: roboto;
+}
+
+h3 {
+    font-size: 1rem;
+}
+
+p {
+    color: #555555;
+    margin: 0.2rem 0;
+}
+
+hr {
+    border: 0.01rem solid #cccccc;
+    border-radius: 15px;
+    margin: 1rem 0;
 }
 
 body {
@@ -228,9 +242,15 @@ button {
 
 .content-right > div {
     background-color: white;
-    width: 15rem;
-    height: 20rem;
+    width: 12rem;
+    height: 16rem;
     border-radius: 10px;
     margin: 1rem 0;
     box-shadow: 3px 4px 4px #e0e0e0;
+    padding: 2rem;
+}
+
+h3 + p {
+    font-size: 0.8rem;
+    font-weight: 300;
 }
