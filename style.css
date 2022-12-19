@@ -199,11 +199,31 @@ button {
     grid-template-columns: 3fr 1fr;
 }
 
+.content-left {
+    margin: 2rem 1rem;
+}
+
+.content-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+    margin: 1rem 0 0;
+}
+
+.content-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 3px 4px 4px #e0e0e0;
+    width: auto;
+    height: 225px;
+    border-left: 10px solid gold;
+}
+
 .content-right {
     display: flex;
     flex-direction: column;
     justify-content: start;
-    margin: 2rem 0;
+    margin: 2rem 0 0;
 }
 
 .content-right > div {
