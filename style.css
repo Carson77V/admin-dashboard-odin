@@ -66,6 +66,7 @@ body {
     grid-template-columns: 1fr 4fr;
     grid-template-rows: 1fr 4fr;
     min-height: 100vh;
+    font-family: roboto;
 }
 
 /* All styles that affect the sidebar*/
@@ -160,6 +161,16 @@ input {
 
 .gap {
     flex-grow: 1;
+}
+
+.header-bottom {
+    display: flex;
+
+}
+
+button {
+    background-color: var(--main-blue);
+    border: none;
 }
 
 /* all styles that affect the main content*/
