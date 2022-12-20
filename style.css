@@ -64,7 +64,7 @@ h2 {
 }
 
 h3 {
-    font-size: 1rem;
+    font-size: 1.1rem;
 }
 
 p {
@@ -221,6 +221,11 @@ button {
     grid-template-columns: repeat(auto-fill, minmax(275px, 1fr));
     gap: 1rem;
     margin: 1rem 0 0;
+}
+
+.content-card > p {
+    font-size: 1rem;
+    margin-top: 0.3rem;
 }
 
 .content-card {
