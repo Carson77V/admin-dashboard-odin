@@ -162,7 +162,7 @@ input {
     height: 45px;
 }
 
-img[src^="dog"] {
+img[src$=".jpeg"] {
     height: 2.5rem;
     margin-left: -5px;
     width: auto;
@@ -262,6 +262,16 @@ button {
 .trendy-text > p {
     font-size: 0.9rem;
     font-weight: 300;
+    margin-left: 1rem;
+}
+
+.trendy-text > div {
+    margin-left: 1rem;
+    font-size: 0.95rem;
+}
+
+img[src^="cat"] {
+    margin: 0;
 }
 
 h3 + p {
