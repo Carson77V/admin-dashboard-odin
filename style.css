@@ -138,7 +138,7 @@ body {
 .header > div {
     display: flex;
     align-items: center;
-    margin: 0 3rem;
+    margin: 0 3rem 0 2rem;
 }
 
 input {
@@ -146,16 +146,15 @@ input {
     border-radius: 50px;
     border: none;
     width: 35vw;
-    margin: 0 1rem;
     font-size: 1.4rem;
 }
 
 .header img[src^="./icons"] {
     height: 2rem;
+    margin: 0 1rem;
 }
 
 .circular {
-    margin-left: 1rem;
     overflow: hidden;
     border-radius: 50%;
     border: 1px solid black;
@@ -163,7 +162,7 @@ input {
     height: 45px;
 }
 
-.header img[src^="dog"] {
+img[src^="dog"] {
     height: 2.5rem;
     margin-left: -5px;
     width: auto;
@@ -253,6 +252,16 @@ button {
 .trending-card {
     display: grid;
     grid-template-rows: repeat(4, 1fr);
+}
+
+.trending-card > div{
+    display: flex;
+    align-items: center;
+}
+
+.trendy-text > p {
+    font-size: 0.9rem;
+    font-weight: 300;
 }
 
 h3 + p {
